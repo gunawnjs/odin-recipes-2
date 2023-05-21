@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    border-bottom: solid 2px orange;
+}
+header{
+    font-family: Lobster, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+article,
+.breadcumb{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+img{
+    width: 100%;
+}
+h2{
+    font-weight: 700;
+}
+article{
+    padding: 0 2rem;
+}
+article{
+    font-size: 16.5px;
+}
+article h2{
+    font-size: 20px;
+}
+article section:first-child{
+    text-align: justify;
+}
+article section:nth-child(-n + 3){
+    margin: 1rem 0;
+}
+ul li,
+ol li{
+    /* top, right, bottom, left */
+    margin: 1rem 0 1rem 2rem;
+}
+footer{
+    margin-top: 2rem;
+    border-top: solid 5px orange;
+    background: #0e0e0e;
+    color: #fff;
+    text-align: center;
+    padding: 3.5rem 0;
+}
+footer *{
+    /* border: solid 1px red; */
+    margin: 1rem 0;
+}
+footer h1{
+    font-family: Lobster, sans-serif;
+    font-size: 1.5rem;
+}
+footer p{
+    font-size: 12px;
+}
+.breadcumb{
+    padding: 1rem 2rem 0 2rem;
+    /* font-weight: 200; */
+    text-transform: uppercase;
+}
+.breadcumb a{
+    font-weight: 700;
+}
+.infos{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.infos img{
+    width: 1.5rem;
+    margin-right: 6px;
+}
+.infos p{
+    margin-right: 2.5px;
+}
+.infos p:last-child{
+    color: #535353;
+}
+.tips2,
+.tips3{
+    margin: 1rem 0;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+body{
+    background: linear-gradient(180deg, rgba(209, 178, 0, 0.774), rgba(185, 112, 16, 0.966)), url(../img/istockphoto-880710798-612x612.jpg);
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header{
+    text-align: center;
+    font-family: Lobster, sans-serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+section{
+    font-family: Poppins, sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+}   
+li{
+    list-style: none;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-shadow: 0 0 12px #fff;
+}
+header,
+section{
+    padding: 1rem 0;
+}
+@media(min-width: 400px){
+    header{
+        font-size: 2.5rem;
+    }
+    section{
+        font-size: 1.3rem;
+    }
+}
