@@ -48,6 +48,7 @@ article section:nth-child(-n + 3){
 ul li,
 ol li{
     /* top, right, bottom, left */
+    border: solid 1px red;
     margin: 1rem 0 1rem 2rem;
 }
 footer{
@@ -101,6 +102,10 @@ footer p{
 .tips2,
 .tips3{
     margin: 1rem 0;
+}
+.tips2 p,
+.tips3 p{
+    margin-top: 1rem;
 }
 @media (min-width: 800px){
     .heading{
