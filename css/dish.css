@@ -43,6 +43,7 @@ article section:first-child{
 }
 article section:nth-child(-n + 3){
     margin: 1rem 0;
+    /* border: solid 1px red; */
 }
 ul li,
 ol li{
@@ -76,6 +77,11 @@ footer p{
 .breadcumb a{
     font-weight: 700;
 }
+.caption{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 1rem 2rem;
+    text-align: justify;
+}
 .infos{
     margin-top: 1rem;
     display: flex;
@@ -95,4 +101,30 @@ footer p{
 .tips2,
 .tips3{
     margin: 1rem 0;
+}
+@media (min-width: 800px){
+    .heading{
+        display: flex;
+        align-items: center;
+    }
+    .heading img{
+        margin-left: 2rem;
+    }
+    .content{
+        width: 80%;
+        /* border: solid 1px red; */
+    }
+    .breadcumb{
+        padding-top: 0;
+    }
+    .infos img{
+        margin-left: 0;
+    }
+
+}
+@media (min-width: 950px){
+    .img-dish{
+        width: 50%;
+    }
+
 }
